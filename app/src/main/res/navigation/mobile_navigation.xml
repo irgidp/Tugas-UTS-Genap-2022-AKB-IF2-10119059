@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profil">
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.example.tugas_uts_genap_2022_akb_if2_10119059.main.menu.profil.ProfilFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/navigation_diary"
+        android:name="com.example.tugas_uts_genap_2022_akb_if2_10119059.main.menu.diary.DiaryFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_diary" />
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.example.tugas_uts_genap_2022_akb_if2_10119059.main.menu.info.InfoFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_info" />
+</navigation>

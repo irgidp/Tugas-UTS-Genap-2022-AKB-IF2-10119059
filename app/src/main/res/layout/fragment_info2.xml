@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@color/palette1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="Ayo mulai ceritakan keseharian
+kamu disini!"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+</FrameLayout>
