@@ -10,6 +10,13 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Rabu, 1 Juni 2022
+        Membuat class InfoViewModel untuk membuat list fragment info
+*/
 public class InfoViewModel extends FragmentStatePagerAdapter {
 
     private List<Fragment> fragmentList;

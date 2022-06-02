@@ -8,7 +8,13 @@ import android.os.Handler;
 
 import com.example.tugas_uts_genap_2022_akb_if2_10119059.R;
 import com.example.tugas_uts_genap_2022_akb_if2_10119059.main.MainActivity;
-
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Selasa, 31 Mei 2022
+        Membuat class SplashScreen untuk menampilkan splashscreen
+*/
 public class SplashActivity extends AppCompatActivity {
 
     @Override
@@ -26,6 +32,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 3000);
     }
 }

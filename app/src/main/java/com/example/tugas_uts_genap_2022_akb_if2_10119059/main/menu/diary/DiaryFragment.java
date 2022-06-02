@@ -24,8 +24,16 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Rabu, 1 Juni 2022
+        Membuat class diaryfragment untuk menampilkan data
+*/
 public class DiaryFragment extends Fragment {
 
+    /* Deklarasi variable */
     private FloatingActionButton addButton;
     private ListView listView;
     private ListViewAdapter listViewAdapter;
@@ -34,6 +42,7 @@ public class DiaryFragment extends Fragment {
 
     @Nullable
     @Override
+    /*Fungsi membuat view dan menampilkan data*/
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_diary, container, false);
 
@@ -54,6 +63,7 @@ public class DiaryFragment extends Fragment {
         return root;
     }
 
+    /*Fungsi menampilkan data*/
     public void showData() {
         listTask.clear();
         Cursor res = helper.getAllData();
@@ -71,6 +81,7 @@ public class DiaryFragment extends Fragment {
 
         listViewAdapter = new ListViewAdapter(listTask, getActivity());
         listView.setAdapter(listViewAdapter);
+        listViewAdapter.notifyDataSetChanged();
     }
 
 }

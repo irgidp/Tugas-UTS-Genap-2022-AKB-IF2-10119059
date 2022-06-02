@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KULIAH/Magang/Corajon/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/diary_card.xml" value="0.358695652173913" />
+        <entry key="..\:/KULIAH/Magang/Corajon/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_diary.xml" value="0.33" />
+        <entry key="..\:/KULIAH/Magang/Corajon/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/KULIAH/Magang/Corajon/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/activity_form_diary.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/diary_card.xml" value="0.33" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_diary.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_info.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_info1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_info2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_info3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/layout/fragment_profil.xml" value="0.2949438202247191" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas-UTS-Genap-2022-AKB-IF2-10119059/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas_UTS_Genap_2022_AKB_IF2_10119059/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.365" />
         <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas_UTS_Genap_2022_AKB_IF2_10119059/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.365" />
         <entry key="..\:/Users/Irgi/AndroidStudioProjects/Tugas_UTS_Genap_2022_AKB_IF2_10119059/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.365" />

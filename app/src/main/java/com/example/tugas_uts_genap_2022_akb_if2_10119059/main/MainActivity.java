@@ -1,4 +1,4 @@
-package com.example.tugas_uts_genap_2022_akb_if2_10119059.main;
+    package com.example.tugas_uts_genap_2022_akb_if2_10119059.main;
 
 import android.app.ActionBar;
 import android.os.Bundle;
@@ -15,6 +15,13 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.tugas_uts_genap_2022_akb_if2_10119059.databinding.ActivityMainBinding;
 
+    /*
+            NIM : 10119059
+            Nama : Irgi Dwiputra
+            Kelas : IF-2/VI
+            Tanggal : Selasa, 31 Mei 2022
+            Membuat class MainActivity
+    */
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
@@ -31,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_profil, R.id.navigation_diary, R.id.navigation_info)
+                R.id.navigation_diary, R.id.navigation_profil, R.id.navigation_info)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
 /*        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);*/

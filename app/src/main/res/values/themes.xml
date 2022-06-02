@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Tugas_UTS_Genap_2022_AKB_IF2_10119059" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/palette1</item>
+        <item name="colorPrimary">@color/palette4</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/palette3</item>
         <!-- Secondary brand color. -->

@@ -19,8 +19,16 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Kamis, 2 Juni 2022
+        Membuat class Edit untuk mengubah catatan
+*/
 public class EditDiaryActivity extends AppCompatActivity {
 
+    /* Deklarasi variable */
     private EditText judulEditText, kategoriEditText, isiEditText;
     private Date date;
     private SimpleDateFormat dateFormat, monthFormat, yearFormat;
@@ -30,15 +38,17 @@ public class EditDiaryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_form_diary);
+        setContentView(R.layout.activity_form_diary); /*Memanggil tampilan form*/
 
         Bundle bundle = getIntent().getExtras();
 
+        /*Deklrasi tanggal*/
         date = Calendar.getInstance().getTime();
         dateFormat = new SimpleDateFormat("dd", Locale.getDefault());
         monthFormat = new SimpleDateFormat("MMMM", Locale.getDefault());
         yearFormat = new SimpleDateFormat("yyyy", Locale.getDefault());
 
+        /*Deklrasi button*/
         submitButton = findViewById(R.id.submitButton);
         judulEditText = findViewById(R.id.judul);
         kategoriEditText = findViewById(R.id.kategori);
@@ -48,8 +58,10 @@ public class EditDiaryActivity extends AppCompatActivity {
         kategoriEditText.setText(bundle.getString("Kategori"));
         isiEditText.setText(bundle.getString("Isi"));
 
+        /*Deklarasi SQLite sebagai variabel baru*/
         helper = new SQLite(this);
 
+        /*Fungsi ketika button submit dipencet*/
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,12 +86,12 @@ public class EditDiaryActivity extends AppCompatActivity {
                     boolean isSuccess = helper.updateData(id, judul, kategori, isi, formattedDate, formattedMonth, formattedYear);
 
                     if (isSuccess) {
-                        Toast.makeText(EditDiaryActivity.this, "Data has been updated", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditDiaryActivity.this, "Catatan berhasil diubah", Toast.LENGTH_SHORT).show();
 
                         startActivity(new Intent(EditDiaryActivity.this, MainActivity.class));
                         finish();
                     } else {
-                        Toast.makeText(EditDiaryActivity.this, "Data failed to update", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditDiaryActivity.this, "Catatan gagal diubah", Toast.LENGTH_SHORT).show();
                     }
                 }
             }

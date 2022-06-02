@@ -20,6 +20,14 @@ import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Rabu, 1 Juni 2022
+        Membuat class InfoFragment untuk membuat inisiasi fragment
+*/
+
 public class InfoFragment extends Fragment {
 
     private ViewPager viewPager;

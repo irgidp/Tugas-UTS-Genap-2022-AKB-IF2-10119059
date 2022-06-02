@@ -19,8 +19,17 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Rabu, 1 Juni 2022
+        Membuat class create untuk menambahkan catatan baru
+*/
+
 public class CreateDiaryActivity extends AppCompatActivity {
 
+    /* Deklarasi variable */
     private EditText judulEditText, kategoriEditText, isiEditText;
     private Date date;
     private SimpleDateFormat dateFormat, monthFormat, yearFormat;
@@ -30,20 +39,24 @@ public class CreateDiaryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_form_diary);
+        setContentView(R.layout.activity_form_diary); /*Memanggil tampilan form diary untuk disi*/
 
+        /*Deklrasi tanggal*/
         date = Calendar.getInstance().getTime();
         dateFormat = new SimpleDateFormat("dd", Locale.getDefault());
         monthFormat = new SimpleDateFormat("MMMM", Locale.getDefault());
         yearFormat = new SimpleDateFormat("yyyy", Locale.getDefault());
 
+        /*Deklrasi button*/
         submitButton = findViewById(R.id.submitButton);
         judulEditText = findViewById(R.id.judul);
         kategoriEditText = findViewById(R.id.kategori);
         isiEditText = findViewById(R.id.isi);
 
+        /*Deklarasi SQLite sebagai variabel baru*/
         helper = new SQLite(this);
 
+        /*Fungsi ketika button submit dipencet*/
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,12 +80,12 @@ public class CreateDiaryActivity extends AppCompatActivity {
                     boolean isSuccess = helper.insertData(judul, kategori, isi, formattedDate, formattedMonth, formattedYear);
 
                     if (isSuccess) {
-                        Toast.makeText(CreateDiaryActivity.this, "Data has been added", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(CreateDiaryActivity.this, "Catatan berhasil ditambahkan", Toast.LENGTH_SHORT).show();
 
                         startActivity(new Intent(CreateDiaryActivity.this, MainActivity.class));
                         finish();
                     } else {
-                        Toast.makeText(CreateDiaryActivity.this, "Data failed to save", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(CreateDiaryActivity.this, "Catatan gagal ditambahkan", Toast.LENGTH_SHORT).show();
                     }
                 }
             }

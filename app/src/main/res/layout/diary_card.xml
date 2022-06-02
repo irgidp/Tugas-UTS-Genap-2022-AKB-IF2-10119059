@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--    NIM : 10119059
+    Nama : Irgi Dwiputra
+    Kelas : IF-2/VI
+    Tanggal : Rabu, 1 Juni 2022
+    Membuat tampilan card untuk catatan -->
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -89,6 +94,8 @@
                     android:layout_height="30dp"
                     android:backgroundTint="@color/palette3"
                     android:background="@drawable/ic_baseline_more_horiz_24"/>
+
+
 
             </LinearLayout>
 

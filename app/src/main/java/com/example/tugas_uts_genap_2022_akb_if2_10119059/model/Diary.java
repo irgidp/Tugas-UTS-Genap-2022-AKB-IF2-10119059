@@ -1,5 +1,12 @@
 package com.example.tugas_uts_genap_2022_akb_if2_10119059.model;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Selasa, 31 Mei 2022
+        Membuat class Diary untuk getter setter
+*/
 public class Diary {
     private String id;
     private String judul;

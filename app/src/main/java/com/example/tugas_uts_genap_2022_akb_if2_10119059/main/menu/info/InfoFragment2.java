@@ -12,6 +12,13 @@ import android.view.ViewGroup;
 
 import com.example.tugas_uts_genap_2022_akb_if2_10119059.R;
 
+/*
+        NIM : 10119059
+        Nama : Irgi Dwiputra
+        Kelas : IF-2/VI
+        Tanggal : Rabu, 1 Juni 2022
+        Membuat class InfoFragment1 untuk deklrasi info fragment halaman 2
+*/
 public class InfoFragment2 extends Fragment {
     @Nullable
     @Override
